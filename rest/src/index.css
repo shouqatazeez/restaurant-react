@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  margin: 5px 8px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.logoimg{
+  height: 100px;
+  border-radius: 50%;
+  margin: 5px ;
+  padding: 5px;
+}
+
+.list{
+  align-items: center;
+  align-items: center;
+  display: flex;
+  margin-right: 10px;
+  gap: 30px;
+  
+}
+
+.list li{
+  list-style: none;  
+}
+
+.list li a{
+  text-decoration: none;
+ color: black;
+  font-size: 25px;  
+}
+
+.list li a:hover{
+  color: darkgreen;
+}
+
+
+
+
+
+.btn{
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: rgb(28, 203, 28);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+ margin-left: 16px;
+ margin: 10px 8px;
+
+  
+  
+
+}
+
+.btn:hover{
+background-color: #146618;
+}
+
+
+
+
+.res-logo{
+  
+  width:100%;
+ 
+}
+
+.rest-card{
+background-color: rgba(105, 230, 105, 0.822);
+  /* height:300px ; */
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 5px;
+  cursor: pointer;
+
+ 
+ 
+}
+
+
+.rest-card:hover{
+  border: 1px solid black;}
+
+h3,h4{
+  margin-bottom: 10px;
+}
+
+.rest-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-logo {
+  width: 100%;
+  max-width: 250px; 
+  height: 150px; 
+  object-fit: cover;  
+}
+.header{
+  background-color:rgb(152, 243, 152);
+}
+
+.Shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.Shimmer-card {
+  width:200px;
+  height: 310px;
+  background: linear-gradient(90deg, #6cdc6cdc 25%, #98ea98 50%, #aae7aa 75%);
+border-radius: 5px;
+  margin: 20px;
+}
+
+.login-btn{
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: rgb(28, 203, 28);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+ margin-left: 12px;
+ margin: 10px 8px;
+ cursor: pointer;
+}
+
+.Filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+ 
+}
+
+.search-box {
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  margin-right: 7px;
+  margin-left: 6px;
+
+}
+
+.btn, .search button {
+  padding: 6px 15px;
+  background-color: rgb(28, 203, 28);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
